@@ -34,7 +34,7 @@ public class AddData {
         } catch (SQLException e) {
             System.out.println("Connection Database Failed" + e.getMessage());
         } catch (ClassNotFoundException e) {
-            System.out.println("JDBC Not FOund" + e.getMessage());
+            System.out.println("JDBC Not Found" + e.getMessage());
         }
     }
 }
